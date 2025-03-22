@@ -1,0 +1,131 @@
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #b8b0b0;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #020101; 
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #a75a5a;
+}
+
+.input,
+.select {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #100e0e;
+  border-radius: 5px;
+}
+
+
+.select {
+  color: #000;
+}
+
+.btn {
+  padding: 0.75rem;
+  background: #0070f3;
+  color: #0b0707;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+.message {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Estilos para el listado de reservas generadas */
+
+.list {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Tarjeta para cada servicio */
+.serviceCard {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Título del servicio */
+.serviceCard h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+  color: #0070f3;
+  text-align: center;
+}
+
+/* Listado de reservas */
+.bookingList {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.bookingList li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #555;
+}
+
+.bookingList li:last-child {
+  border-bottom: none;
+}
+
+/* Opcional: Estado de la reserva */
+.bookingList li span {
+  font-weight: bold;
+  color: #0070f3;
+}
